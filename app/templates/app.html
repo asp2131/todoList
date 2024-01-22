@@ -1,3 +1,9 @@
 <div>
-<h1>Hello world!</h1>
+    <h1>Todo List</h1>
+    <list
+    todos="$ctrl.todos"
+    >
+        <h5><br/><br/>this message will disappear when <em>list</em> component is correctly rendered<br/><br/><br/></h5>
+    </list>
+    <button ng-click="$ctrl.addItem()">Add Item</button>
 </div>
